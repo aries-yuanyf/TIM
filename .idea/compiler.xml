@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for tim-gateway-api" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tim" target="1.8" />
+      <module name="tim-client" target="1.5" />
+      <module name="tim-common" target="1.5" />
+      <module name="tim-gateway" target="1.5" />
+      <module name="tim-gateway-api" target="1.5" />
+      <module name="tim-server" target="1.5" />
+      <module name="tim-server (1)" target="1.5" />
+      <module name="tim-server (2)" target="1.8" />
+      <module name="tim-server-api" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tim-client" options="" />
+      <module name="tim-common" options="" />
+      <module name="tim-gateway" options="" />
+      <module name="tim-gateway-api" options="" />
+      <module name="tim-server" options="" />
+      <module name="tim-server-api" options="" />
+    </option>
+  </component>
+</project>
