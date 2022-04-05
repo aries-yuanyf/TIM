@@ -9,7 +9,7 @@
 
 ## 系统架构
 
-![](https://github.com/aries-yuanyf/TIM/blob/master/%E4%BA%BF%E7%BA%A7IM%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.png =850x600)
+![image](http://assets.processon.com/chart_image/61610bda7d9c086651f22bbe.png)
 
 - `TIM` 中的各个组件均采用 `SpringBoot` 构建。
 - 采用 `Netty` 构建底层通信。
